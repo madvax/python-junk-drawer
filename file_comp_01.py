@@ -34,8 +34,8 @@ class MainWindow(QMainWindow):
       """ """
       super(MainWindow, self).__init__(parent)
       
-      self.folder_a = None                                          # folder a  
-      self.folder_b = None                                          # folder b  
+      self.folder_a           = None                                # folder a  
+      self.folder_b           = None                                # folder b  
       self.folder_a_file_list = []                                  # list of files in folder a 
       self.folder_b_file_list = []                                  # list of files in folder b
       self.output_file        = os.path.join(MY_PATH, "output.csv") # output file  
