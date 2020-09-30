@@ -55,8 +55,8 @@ class MainWindow(QMainWindow):
       self.process_files_button = QPushButton("Process Files")
       self.process_files_button.clicked.connect(self.process_files) 
       self.process_files_button.setVisible(False) 
-      # Place widgets in MainWindow                              row   col 
-      #                           Widget,                    row, col, span, span, alignment(s)  
+      # Place widgets in MainWindow                                    row   col 
+      #                           Widget,                    row, col, span, span,      alignment(s)  
       self.main_layout.addWidget( self.folder_a_label,         1,   2,    1,    1, Qt.AlignTop | Qt.AlignRight )
       self.main_layout.addWidget( self.folder_a_text,          1,   3,    1,    1, Qt.AlignTop | Qt.AlignLeft  )
       self.main_layout.addWidget( self.folder_b_label,         2,   2,    1,    1, Qt.AlignTop | Qt.AlignRight ) 
